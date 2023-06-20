@@ -8,8 +8,8 @@ Since structured log data cannot be directly used for model training, we need to
 </br>
 The logs processed above are arranged in chronological order. For data alignment, different data record granularity can be selected. For example, if converted to hourly accumulation, you can use:
 </br>
-···python utils/op2hour.py```
+```python utils/op2hour.py```
 </br>
 After completing the above steps, insider threat detection can be performed:
 </br>
-···python train.py```
+```python train.py```
